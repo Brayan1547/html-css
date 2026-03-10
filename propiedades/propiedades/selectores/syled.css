@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.inicio{
+    background-color: rgb(35, 210, 210);
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+.comienzo_1{
+    background-color: rgb(15, 38, 192);
+}
+
+.comienzo_2{
+    background-color: rgb(181, 181, 17);
+}
+
+.comienzo_3{
+    background-color: rgb(10, 232, 232);
+}
+
+.container{
+    background-color: rgb(222, 15, 15);
+    padding: 15px ;
+}
