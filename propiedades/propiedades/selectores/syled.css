@@ -11,6 +11,11 @@ h1{
     font-style: italic;
 }
 
+h2{
+    color: white;
+    
+}
+
 .inicio{
     background-color: rgb(35, 210, 210);
     margin: 20px;
