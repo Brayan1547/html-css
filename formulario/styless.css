@@ -1,0 +1,53 @@
+:root {
+  --main-color: #20d329db; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0)
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+form{
+    background-color: rgb(29, 27, 160);
+    border: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* label{
+    text-transform:uppercase ;
+    color:rgb(119, 94, 169) ;
+    margin: 0 10px ;
+    font-weight: bold;
+} */
+
+input{
+    outline:20px auto;
+    border: 2px solid rgb(5, 157, 51);
+
+
+}
+
+input,label{
+    display: block;
+    margin: 15px 0 0 60px;
+}
+
+fieldset{
+    background-color: rgb(0, 0, 0);
+
+}
