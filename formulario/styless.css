@@ -28,12 +28,12 @@ form{
 
 }
 
-/* label{
+label{
     text-transform:uppercase ;
     color:rgb(119, 94, 169) ;
     margin: 0 10px ;
     font-weight: bold;
-} */
+}
 
 input{
     outline:20px auto;
@@ -51,3 +51,5 @@ fieldset{
     background-color: rgb(0, 0, 0);
 
 }
+
+textare::
