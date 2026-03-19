@@ -7,50 +7,24 @@
     <link rel="stylesheet" href="styless.css">
 </head>
 <body>
-    <header class="contenedor">
 
-    <div class="logo">
-        <img src="netflix.png" alt="">
-    </div>
-    
+    <header class="contenedor">
+        
+        <div>
+            <img src="netflix.png" alt="">
+        </div>
     </header>
 
     <main>
         <h1 class="titulo">Ingresa tu info para iniciar sesion</h1>
-        <p class="sub">o bien, comienza con una cuenta nueva.</p>
 
-        <div class="formulario">
+        <form>
+            <input type="text" placeholder="Email o numero de celular">
+            <button type="submit" class="boton rojo">continuar</button>
+        </form>
 
-            <label for="Email o phone"></label>
-            <input type="text" placeholder="Email o numero celular">
-
-            <button class="btn-conti" type="submit">continuar</button>
-
-        </div>
-
-        <!-- <div>
-            <label for="button"></label>
-            <input type="text" placeholder="obtener ayuda">
-        </div> -->
-
-        <details class="menu_ayuda">
-            <summary>obtener ayuda <span class="flecha">^</span></summary>
-            <div class="dentro">
-                <p>¿olvidaste tu email o numero de celular? </p>
-
-                <p>obten mas informacion sobre el inicio de sesion</p>
-
-            </div>
-        </details>
-
-        <p>Esta pagina esta protegida por google reCAPTCHA para comprobar que un eres un roboto .Mas info</p>
-        
+        <a href="" class="ayuda">obtener ayuda</a>
     </main>
-
-    <footer class="ultimo">
-        <!-- <p>¿preguntas? Llama al 01 800 519 1570 (sin cargo)</p> -->
-
-
-    </footer>
+    
 </body>
 </html>
