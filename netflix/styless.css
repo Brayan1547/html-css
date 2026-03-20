@@ -23,30 +23,41 @@ main{
     justify-content: center;
     min-height: 80vh;
 }
+section{
+    width: 480px;
+    margin: auto;
+}
+.for{
+    text-align: start;
+}
 
 .titulo{
-     font-size: 32px; 
+    font-size: 32px; 
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
     line-height: 1.2;
+    text-align: left;
 }
 
 input{
-    width: 100px;
+    width: 100%;
     max-width: 400px;
     display: block;
-    padding: 18px 15px auto;
-    margin-bottom: 20px;
-    background-color: #161616;
-    border: 1px solid #8c8c8c;
-    border-radius: 5px;
+    /* margin: 0 auto 15px auto; */
+    padding: 18px 15px;
+    background-color: #333;
     color: white;
-    box-sizing: border-box; 
-
+    border: 1px solid #8c8c8c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-
+.sub{
+    margin-bottom: 20px;
+}
 button{
     width: 330px;
     padding: 12px;
@@ -56,14 +67,8 @@ button{
     border: none;
     border-radius: 50px;
     cursor: pointer; /* cambia el maus */
+    margin-bottom: 20px;
 }
-
-/* header.contenedor{
-    border-bottom: 1px solid;
-    padding: 20px 50px;
-    width: 100%;
-} */
-
 
 button:hover{
     background-color: #b9090b; /* se oscurece un poco al pasar el boton continuar */
@@ -74,11 +79,15 @@ button:hover{
     border-bottom: 1px solid;
 } 
 
-.form , .titulo , .ayuda , .sub{
-    width: 100%;
-    max-width: 400px;
-    text-align: left;
+.ultimo{
+    margin-bottom: 35px;
 }
+
+.form , .titulo , .ayuda , .sub{
+    /* /* width: 100%;
+    max-width: 400px; */
+
+} */
 
 @media(max-width: 485px){
 

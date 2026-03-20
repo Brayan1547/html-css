@@ -8,6 +8,12 @@
 </head>
 <body>
 
+    <button id="open_modal">continuar</button>
+
+    <div id="mymodal" class="modal">
+
+        <div>
+
     <header class="contenedor">
         
         <div class="logo">
@@ -16,17 +22,32 @@
     </header>
 
     <main>
-        <h1 class="titulo">Ingresa tu info para iniciar sesion</h1>
-        <p class="sub">o bien, comienza con una cuenta nueva.</p>
+        <section>
+                <h1 class="titulo">Ingresa tu info para iniciar sesion</h1>
+                <p class="sub">o bien, comienza con una cuenta nueva.</p>
 
-        <form>
+        <form class="for">
             <input type="text" placeholder="Email o numero de celular">
             <button type="submit" class="boton_rojo">continuar</button>
         </form>
 
         <a href="" class="ayuda">obtener ayuda</a>
-        <div"></div>
+
+        <div id="mensaje_ayuda" class="oculto">
+            <p>¿Olvidaste tu email o número de celular?</p>
+        </div>
+
+        </section>
+        
+        <section>
+            <p class="ultimo">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. Más info</p>
+        </section>
+        
+ 
     </main>
-    
+        </div>
+    </div>
+
+    <script src=""></script>
 </body>
 </html>
