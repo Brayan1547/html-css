@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="styless.css">
 </head>
 <body>
+ 
+    <input type="checkbox" id="btn-modal" style="display: none;">
 
-    <button id="open_modal">continuar</button>
+    <div class="pantalla-inicial">
+        <label for="btn-modal" class="boton-grande"> continuar</label>
+    </div>
 
-    <div id="mymodal" class="modal">
+    <div class="container-modal">
+        <div class="content-modal">
+            <label for="btn-modal"
+            style="color:white; cursor:pointer; position: absolute; top:10px right: 20px;">x</label>
 
-        <div>
+            <div>
 
     <header class="contenedor">
         
@@ -45,9 +52,11 @@
         
  
     </main>
-        </div>
+            </div>
+
+        </div>    
     </div>
 
-    <script src=""></script>
+   
 </body>
 </html>
