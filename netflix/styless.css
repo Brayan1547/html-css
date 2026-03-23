@@ -118,7 +118,7 @@ button:hover{
 
  .contenedor{
     padding: 20px 45px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid; 
 } 
 
 .ultimo{
@@ -167,7 +167,7 @@ background: linear-gradient(0deg, rgba(110, 10, 15, 1) 0%, rgba(36, 34, 32, 1) 1
 
     ::selection{
         width: 100%;
-    }
+    } /* responsive design "celular" */
     
 }
 
