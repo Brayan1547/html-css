@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(0deg, rgba(110, 10, 15, 1) 0%, rgba(36, 34, 32, 1) 100%); 
+    background: linear-gradient(0deg, rgba(110, 10, 15, 1) 0%, rgba(36, 34, 32, 1) 100%);
     background-attachment:fixed;
     height: 100vh;
     display: flex;
@@ -73,7 +73,7 @@ section{
 }
 
 .titulo{
-    font-size: 32px; 
+    font-size: 32px;
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
@@ -118,8 +118,8 @@ button:hover{
 
  .contenedor{
     padding: 20px 45px;
-    border-bottom: 1px solid; 
-} 
+    border-bottom: 1px solid;
+}
 
 .ultimo{
     margin-bottom: 35px;
@@ -129,7 +129,7 @@ button:hover{
     /* /* width: 100%;
     max-width: 400px; */
 
-} 
+}
 
 .container-modal{
     position: fixed;
@@ -143,10 +143,10 @@ button:hover{
     align-items: center;
     z-index: 1000;
      background: #6e0a0f;
-background: linear-gradient(0deg, rgba(110, 10, 15, 1) 0%, rgba(36, 34, 32, 1) 100%); 
+background: linear-gradient(0deg, rgba(110, 10, 15, 1) 0%, rgba(36, 34, 32, 1) 100%);
 }
 
-#btn-modal:checked 
+#btn-modal:checked
 ~ .container-modal{
     display: flex;
 }
@@ -168,7 +168,20 @@ background: linear-gradient(0deg, rgba(110, 10, 15, 1) 0%, rgba(36, 34, 32, 1) 1
     ::selection{
         width: 100%;
     } /* responsive design "celular" */
-    
+
 }
 
 
+.inicio2{
+   
+     width: 330px;
+    padding: 12px;
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* cambia el maus */
+    margin-bottom: 20px;
+
+}
