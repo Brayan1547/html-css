@@ -1,1 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+h2.titulo{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.sub {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #4da3ff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.punto1 {
+    margin-left: 20px;
+    line-height: 1.8;
+    color: white;
+
+}
+
+li { 
+    margin-bottom: 10px;
+}
+
+.tarjeta {
+    background-color: rgba(225, 225, 225, 0.05 );
+    border-radius: 20px;
+    border: 2px solid rgba(225, 225, 225, 0.6);
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 10px 30px;
+}
+
+.punto1 li {
+    margin-bottom: 15px;
+    list-style-type: circle;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
